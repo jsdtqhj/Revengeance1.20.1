@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:arrows",
+    "#c:minecarts",
+    "#c:boats",
+    "minecraft:armor_stand",
+    "minecraft:experience_orb",
+    "minecraft:item",
+    "minecraft:glow_item_frame",
+    "minecraft:item_frame",
+    "minecraft:trident",
+    "minecraft:player"
+  ]
+}

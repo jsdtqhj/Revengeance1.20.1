@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"botania:doppleganger","required":false},
+    {"id":"youkaishomecoming:rumia","required":false},
+    {"id":"youkaishomecoming:shrine_maiden","required":false},
+    {"id":"youkaishomecoming:cirno","required":false},
+    {"id":"youkaishomecoming:yukari","required":false},
+    {"id":"youkaishomecoming:youkai","required":false},
+    {"id":"youkaishomecoming:kochiya_sanae","required":false},
+    {"id":"youkaishomecoming:komeiji_koishi","required":false},
+    {"id":"youkaishomecoming:kirisame_marisa","required":false},
+    {"id":"youkaishomecoming:mystia_lorelei","required":false},
+    {"id":"graveyard:lich","required":false},
+    {"id":"cataclysm:coralssus","required":false},
+    {"id":"cataclysm:ender_guardian","required":false},
+    {"id":"cataclysm:ignis","required":false},
+    {"id":"cataclysm:maledictus","required":false},
+    {"id":"cataclysm:ancient_remnant","required":false},
+    {"id":"cataclysm:the_harbinger","required":false},
+    {"id":"cataclysm:the_leviathan","required":false},
+    {"id":"terra_entity:king_slime","required":false},
+    {"id":"terra_entity:eyes_of_cthulhul","required":false},
+    {"id":"terra_entity:eater_of_worlds","required":false},
+    {"id":"terra_entity:brain_of_cthulhul","required":false},
+    {"id":"terra_entity:queen_bee","required":false},
+    {"id":"terra_entity:skeletron","required":false}
+  ]
+}

@@ -1,0 +1,424 @@
+{
+  "_fv": 77,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "rage_bar.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "RageDisplay"
+          },
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": -6,
+          "y": 219,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rage_bar_l1_overlay.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "RageDisplayl1"
+          },
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": -6,
+          "y": 219,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rage_bar_l2_overlay.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "RageDisplayl2"
+          },
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": -6,
+          "y": 219,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rage_bar_l3_overlay.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "RageDisplayl3"
+          },
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": -6,
+          "y": 219,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rage_bar_l4_overlay.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "RageDisplayl4"
+          },
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": -6,
+          "y": 219,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rage_bar_l5_overlay.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "RageDisplayl5"
+          },
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": -6,
+          "y": 219,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rage_bar_l6_overlay.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "RageDisplayl6"
+          },
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": -6,
+          "y": 219,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rage_bar_l7_overlay.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "RageDisplayl7"
+          },
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": -6,
+          "y": 219,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rage_bar_l8_overlay.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "RageDisplayl8"
+          },
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": -6,
+          "y": 219,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rage_bar_l9_overlay.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "RageDisplayl9"
+          },
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": -6,
+          "y": 219,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rage_bar_lx_overlay.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "RageDisplaylx"
+          },
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": -6,
+          "y": 219,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rage_bar_full_overlay.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "RageDisplayFull"
+          },
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": -6,
+          "y": 219,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "adrenaline_bar.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "AdrenalineDisplay"
+          },
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 44,
+          "y": 213,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "adrenaline_bar_l1_overlay.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "AdrenalineDisplayL1"
+          },
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 44,
+          "y": 213,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "adrenaline_bar_l2_overlay.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "AdrenalineDisplayL2"
+          },
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 44,
+          "y": 213,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "adrenaline_bar_l3_overlay.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "AdrenalineDisplayL3"
+          },
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 44,
+          "y": 213,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "adrenaline_bar_l4_overlay.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "AdrenalineDisplayL4"
+          },
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 44,
+          "y": 213,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "adrenaline_bar_l5_overlay.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "AdrenalineDisplayL5"
+          },
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 44,
+          "y": 213,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "adrenaline_bar_l6_overlay.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "AdrenalineDisplayL6"
+          },
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 44,
+          "y": 213,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "adrenaline_bar_l7_overlay.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "AdrenalineDisplayL7"
+          },
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 44,
+          "y": 213,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "adrenaline_bar_l8_overlay.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "AdrenalineDisplayL8"
+          },
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 44,
+          "y": 213,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "adrenaline_bar_l9_overlay.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "AdrenalineDisplayL9"
+          },
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 44,
+          "y": 213,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "adrenaline_bar_lx_overlay.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "AdrenalineDisplayLx"
+          },
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 44,
+          "y": 213,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "adrenaline_bar_lxi_overlay.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "AdrenalineDisplayLxi"
+          },
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 44,
+          "y": 213,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "adrenaline_bar_lxii_overlay.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "AdrenalineDisplayLxii"
+          },
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 44,
+          "y": 213,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "adrenaline_bar_lxiii_overlay.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "AdrenalineDisplayLxiii"
+          },
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 44,
+          "y": 213,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "adrenaline_bar_lxiv_overlay.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "AdrenalineDisplayLiv"
+          },
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 44,
+          "y": 213,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "adrenaline_bar_lxv_overlay.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "AdrenalineDisplayLv"
+          },
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 44,
+          "y": 213,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "adrenaline_bar_full_overlay.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "AdrenalineDisplayFull"
+          },
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 44,
+          "y": 213,
+          "locked": false
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

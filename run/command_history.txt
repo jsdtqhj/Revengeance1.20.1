@@ -1,0 +1,20 @@
+/summon wither
+/kill @e[type=wither]
+/summon wither
+/kill @e[type=!#c:bosses]
+/kill @e[type=#c:bosses]
+/summon wither
+/data get entity @s
+/attribute @s revengeance:adrenaline_level base get
+/attribute @s revengeance:adrenaline_level base set 1
+/kill @e[type=wither]
+/attribute @s revengeance:adrenaline_level base get
+/summon wither
+/summon minecraft:zombie
+/summon wither
+/attribute @s revengeance:adrenaline_level base set 111111
+/effect clear @s minecraft:resistance
+/attribute @s revengeance:adrenaline_level base get
+/attribute @s revengeance:adrenaline_level base set 10000
+/attribute @s revengeance:adrenaline_level base set 111111
+/attribute @s revengeance:adrenaline_level base set 10000

@@ -1,0 +1,14 @@
+{
+  "subtitles.rage_end": "怒气模式：结束",
+  "attribute.revengeance.rage_level": "怒气",
+  "effect.revengeance.rage": "怒气",
+  "subtitles.adrenaline_full": "肾上腺素模式：充能完成",
+  "subtitles.adrenaline_charge_break": "肾上腺素模式：充能被打断",
+  "subtitles.rage_activite": "怒气模式：激活",
+  "subtitles.adrenaline_activite": "肾上腺素模式：激活",
+  "key.revengeance.rage_button": "激活怒气",
+  "effect.revengeance.adrenaline": "肾上腺素",
+  "key.revengeance.adrenaline_button": "激活肾上腺素",
+  "attribute.revengeance.adrenaline_level": "肾上腺素",
+  "subtitles.rage_full": "怒气模式：充能完成"
+}

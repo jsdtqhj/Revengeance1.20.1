@@ -1,0 +1,56 @@
+{
+  "rage_activite": {
+    "subtitle": "subtitles.rage_activite",
+    "sounds": [
+      {
+        "name": "revengeance:rage_activite",
+        "stream": false
+      }
+    ]
+  },
+  "rage_end": {
+    "subtitle": "subtitles.rage_end",
+    "sounds": [
+      {
+        "name": "revengeance:rage_end",
+        "stream": false
+      }
+    ]
+  },
+  "rage_full": {
+    "subtitle": "subtitles.rage_full",
+    "sounds": [
+      {
+        "name": "revengeance:rage_full",
+        "stream": false
+      }
+    ]
+  },
+  "adrenaline_activite": {
+    "subtitle": "subtitles.adrenaline_activite",
+    "sounds": [
+      {
+        "name": "revengeance:adrenaline_activite",
+        "stream": false
+      }
+    ]
+  },
+  "adrenaline_full": {
+    "subtitle": "subtitles.adrenaline_full",
+    "sounds": [
+      {
+        "name": "revengeance:adrenaline_full",
+        "stream": false
+      }
+    ]
+  },
+  "adrenaline_charge_break": {
+    "subtitle": "subtitles.adrenaline_charge_break",
+    "sounds": [
+      {
+        "name": "revengeance:adrenaline_charge_break",
+        "stream": false
+      }
+    ]
+  }
+}
