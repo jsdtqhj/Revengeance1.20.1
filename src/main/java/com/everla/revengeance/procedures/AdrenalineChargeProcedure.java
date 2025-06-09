@@ -41,26 +41,26 @@ public class AdrenalineChargeProcedure {
 			for (Entity entityiterator : world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(128 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).toList()) {
 				if (entityiterator.getType().is(TagKey.create(Registries.ENTITY_TYPE, ResourceLocation.parse("c:bosses")))) {
 					entity.getPersistentData().putDouble("AdrenalineTicker", 10);
-					if ((entity instanceof LivingEntity _livingEntity2 && _livingEntity2.getAttributes().hasAttribute(RevengeanceModAttributes.ADRENALINE_LEVEL)
-							? _livingEntity2.getAttribute(RevengeanceModAttributes.ADRENALINE_LEVEL).getBaseValue()
-							: 0) < 10000) {
-						if (entity instanceof LivingEntity _livingEntity4 && _livingEntity4.getAttributes().hasAttribute(RevengeanceModAttributes.ADRENALINE_LEVEL))
-							_livingEntity4.getAttribute(RevengeanceModAttributes.ADRENALINE_LEVEL)
-									.setBaseValue(((entity instanceof LivingEntity _livingEntity3 && _livingEntity3.getAttributes().hasAttribute(RevengeanceModAttributes.ADRENALINE_LEVEL)
-											? _livingEntity3.getAttribute(RevengeanceModAttributes.ADRENALINE_LEVEL).getBaseValue()
-											: 0) + 16.67));
-					}
-					if ((entity instanceof LivingEntity _livingEntity5 && _livingEntity5.getAttributes().hasAttribute(RevengeanceModAttributes.ADRENALINE_LEVEL)
-							? _livingEntity5.getAttribute(RevengeanceModAttributes.ADRENALINE_LEVEL).getBaseValue()
-							: 0) >= 10000) {
-						if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-							_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 5, 2, true, false));
-					}
 				}
 			}
 		}
 		if (entity.getPersistentData().getDouble("AdrenalineTicker") >= 1) {
 			entity.getPersistentData().putDouble("AdrenalineTicker", (entity.getPersistentData().getDouble("AdrenalineTicker") - 1));
+			if ((entity instanceof LivingEntity _livingEntity6 && _livingEntity6.getAttributes().hasAttribute(RevengeanceModAttributes.ADRENALINE_LEVEL)
+					? _livingEntity6.getAttribute(RevengeanceModAttributes.ADRENALINE_LEVEL).getBaseValue()
+					: 0) < 10000) {
+				if (entity instanceof LivingEntity _livingEntity8 && _livingEntity8.getAttributes().hasAttribute(RevengeanceModAttributes.ADRENALINE_LEVEL))
+					_livingEntity8.getAttribute(RevengeanceModAttributes.ADRENALINE_LEVEL)
+							.setBaseValue(((entity instanceof LivingEntity _livingEntity7 && _livingEntity7.getAttributes().hasAttribute(RevengeanceModAttributes.ADRENALINE_LEVEL)
+									? _livingEntity7.getAttribute(RevengeanceModAttributes.ADRENALINE_LEVEL).getBaseValue()
+									: 0) + 16.67));
+			}
+			if ((entity instanceof LivingEntity _livingEntity9 && _livingEntity9.getAttributes().hasAttribute(RevengeanceModAttributes.ADRENALINE_LEVEL)
+					? _livingEntity9.getAttribute(RevengeanceModAttributes.ADRENALINE_LEVEL).getBaseValue()
+					: 0) >= 10000) {
+				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+					_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 5, 2, true, false));
+			}
 		}
 		if (entity.getPersistentData().getDouble("AdrenalineTicker") == 0) {
 			if ((entity instanceof LivingEntity _livingEntity12 && _livingEntity12.getAttributes().hasAttribute(RevengeanceModAttributes.ADRENALINE_LEVEL)
