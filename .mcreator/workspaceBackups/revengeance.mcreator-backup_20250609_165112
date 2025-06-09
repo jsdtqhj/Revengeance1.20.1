@@ -844,6 +844,40 @@
           }
         ]
       }
+    },
+    {
+      "name": "AdrenalineCharge",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adrenaline_charge",
+      "metadata": {
+        "files": [
+          "src/main/java/com/everla/revengeance/procedures/AdrenalineChargeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -937,14 +971,14 @@
   },
   "workspaceSettings": {
     "modid": "revengeance",
-    "modName": "revengeance",
+    "modName": "Revengeance",
     "version": "0.1.0",
     "description": "Calamity?!",
     "author": "EverlaPrismerAya",
     "websiteURL": "https://space.bilibili.com/485238732",
-    "license": "All Rights Reserved",
+    "license": "GNU General Public License version 3 (GPLv3)",
     "serverSideOnly": false,
-    "modPicture": "pack",
+    "modPicture": "mod",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
