@@ -384,7 +384,7 @@
           }
         ]
       },
-      "path": "~/Adrenaline"
+      "path": "~/Adrenaline/Animation"
     },
     {
       "name": "AdrenalineLevel",
@@ -415,7 +415,7 @@
           }
         ]
       },
-      "path": "~/Adrenaline"
+      "path": "~/Adrenaline/Animation"
     },
     {
       "name": "AdrenalineDisplayL2",
@@ -435,7 +435,7 @@
           }
         ]
       },
-      "path": "~/Adrenaline"
+      "path": "~/Adrenaline/Animation"
     },
     {
       "name": "AdrenalineDisplayL3",
@@ -455,7 +455,7 @@
           }
         ]
       },
-      "path": "~/Adrenaline"
+      "path": "~/Adrenaline/Animation"
     },
     {
       "name": "AdrenalineDisplayL4",
@@ -475,7 +475,7 @@
           }
         ]
       },
-      "path": "~/Adrenaline"
+      "path": "~/Adrenaline/Animation"
     },
     {
       "name": "AdrenalineDisplayL5",
@@ -495,7 +495,7 @@
           }
         ]
       },
-      "path": "~/Adrenaline"
+      "path": "~/Adrenaline/Animation"
     },
     {
       "name": "AdrenalineDisplayL6",
@@ -515,7 +515,7 @@
           }
         ]
       },
-      "path": "~/Adrenaline"
+      "path": "~/Adrenaline/Animation"
     },
     {
       "name": "AdrenalineDisplayL7",
@@ -535,7 +535,7 @@
           }
         ]
       },
-      "path": "~/Adrenaline"
+      "path": "~/Adrenaline/Animation"
     },
     {
       "name": "AdrenalineDisplayL8",
@@ -555,7 +555,7 @@
           }
         ]
       },
-      "path": "~/Adrenaline"
+      "path": "~/Adrenaline/Animation"
     },
     {
       "name": "AdrenalineDisplayL9",
@@ -575,7 +575,7 @@
           }
         ]
       },
-      "path": "~/Adrenaline"
+      "path": "~/Adrenaline/Animation"
     },
     {
       "name": "AdrenalineDisplayLx",
@@ -595,7 +595,7 @@
           }
         ]
       },
-      "path": "~/Adrenaline"
+      "path": "~/Adrenaline/Animation"
     },
     {
       "name": "AdrenalineDisplayLxi",
@@ -615,7 +615,7 @@
           }
         ]
       },
-      "path": "~/Adrenaline"
+      "path": "~/Adrenaline/Animation"
     },
     {
       "name": "AdrenalineDisplayLxii",
@@ -635,7 +635,7 @@
           }
         ]
       },
-      "path": "~/Adrenaline"
+      "path": "~/Adrenaline/Animation"
     },
     {
       "name": "AdrenalineDisplayLxiii",
@@ -655,7 +655,7 @@
           }
         ]
       },
-      "path": "~/Adrenaline"
+      "path": "~/Adrenaline/Animation"
     },
     {
       "name": "AdrenalineDisplayLiv",
@@ -675,7 +675,7 @@
           }
         ]
       },
-      "path": "~/Adrenaline"
+      "path": "~/Adrenaline/Animation"
     },
     {
       "name": "AdrenalineDisplayLv",
@@ -695,7 +695,7 @@
           }
         ]
       },
-      "path": "~/Adrenaline"
+      "path": "~/Adrenaline/Animation"
     },
     {
       "name": "AdrenalineDisplayFull",
@@ -715,7 +715,7 @@
           }
         ]
       },
-      "path": "~/Adrenaline"
+      "path": "~/Adrenaline/Animation"
     },
     {
       "name": "AdrenalineAttributeAdd",
@@ -785,7 +785,7 @@
           }
         ]
       },
-      "path": "~/Adrenaline"
+      "path": "~/Adrenaline/Animation"
     },
     {
       "name": "AdrenalineButtonClick",
@@ -1038,7 +1038,7 @@
   "workspaceSettings": {
     "modid": "revengeance",
     "modName": "Revengeance",
-    "version": "0.1.1",
+    "version": "0.1.3",
     "description": "Calamity?!",
     "author": "EverlaPrismerAya",
     "websiteURL": "https://space.bilibili.com/485238732",

@@ -13,7 +13,14 @@ public class AdrenalineAttributeAddProcedure {
 			Entity _ent = entity;
 			if (!_ent.level().isClientSide() && _ent.getServer() != null) {
 				_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
-						_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "attribute @s terra_curio:generic.ranged_damage modifier add revengeance.adrenaline.ranged 2.1 add_multiplied_total");
+						_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "attribute @s terra_curio:generic.ranged_damage modifier add revengeance.adrenaline.ranged 0.76 add_multiplied_total");
+			}
+		}
+		{
+			Entity _ent = entity;
+			if (!_ent.level().isClientSide() && _ent.getServer() != null) {
+				_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
+						_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "attribute @s terra_curio:generic.magic_damage modifier add revengeance.adrenaline.magic 0.76 add_multiplied_total");
 			}
 		}
 		{
@@ -21,6 +28,13 @@ public class AdrenalineAttributeAddProcedure {
 			if (!_ent.level().isClientSide() && _ent.getServer() != null) {
 				_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
 						_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "attribute @s minecraft:generic.attack_damage modifier add revengeance.adrenaline.melee 2.1 add_multiplied_base");
+			}
+		}
+		{
+			Entity _ent = entity;
+			if (!_ent.level().isClientSide() && _ent.getServer() != null) {
+				_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
+						_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "attribute @s terra_entity:player.summon_damage modifier add revengeance.adrenaline.summon 2.1 add_multiplied_base");
 			}
 		}
 		{

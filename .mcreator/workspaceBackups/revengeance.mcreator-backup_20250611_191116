@@ -16,7 +16,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Rage"
     },
     {
       "name": "RageAttributeRemove",
@@ -34,7 +35,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Rage"
     },
     {
       "name": "Rage",
@@ -46,7 +48,8 @@
         "files": [
           "src/main/java/com/everla/revengeance/potion/RageMobEffect.java"
         ]
-      }
+      },
+      "path": "~/Rage"
     },
     {
       "name": "RageLevel",
@@ -56,7 +59,8 @@
       "registry_name": "rage_level",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/Rage"
     },
     {
       "name": "RageDisplay",
@@ -75,7 +79,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Rage/Animation"
     },
     {
       "name": "RageBar",
@@ -87,7 +92,8 @@
         "files": [
           "src/main/java/com/everla/revengeance/client/screens/RageBarOverlay.java"
         ]
-      }
+      },
+      "path": "~/Rage/Animation"
     },
     {
       "name": "RageDisplayl1",
@@ -106,7 +112,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Rage/Animation"
     },
     {
       "name": "RageDisplayl2",
@@ -125,7 +132,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Rage/Animation"
     },
     {
       "name": "RageDisplayl3",
@@ -144,7 +152,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Rage/Animation"
     },
     {
       "name": "RageDisplayl4",
@@ -163,7 +172,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Rage/Animation"
     },
     {
       "name": "RageDisplayl5",
@@ -182,7 +192,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Rage/Animation"
     },
     {
       "name": "RageDisplayl6",
@@ -201,7 +212,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Rage/Animation"
     },
     {
       "name": "RageDisplayl7",
@@ -220,7 +232,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Rage/Animation"
     },
     {
       "name": "RageDisplayl8",
@@ -239,7 +252,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Rage/Animation"
     },
     {
       "name": "RageDisplayl9",
@@ -258,7 +272,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Rage/Animation"
     },
     {
       "name": "RageDisplaylx",
@@ -277,7 +292,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Rage/Animation"
     },
     {
       "name": "RageDisplayFull",
@@ -296,7 +312,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Rage/Animation"
     },
     {
       "name": "RageButtonClick",
@@ -314,7 +331,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Rage/Animation"
     },
     {
       "name": "RageButton",
@@ -326,7 +344,8 @@
         "files": [
           "src/main/java/com/everla/revengeance/network/RageButtonMessage.java"
         ]
-      }
+      },
+      "path": "~/Rage"
     },
     {
       "name": "RageAnimation",
@@ -344,7 +363,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Rage/Animation"
     },
     {
       "name": "AdrenalineDisplay",
@@ -363,7 +383,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Adrenaline/Animation"
     },
     {
       "name": "AdrenalineLevel",
@@ -373,7 +394,8 @@
       "registry_name": "adrenaline_level",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/Adrenaline"
     },
     {
       "name": "AdrenalineDisplayL1",
@@ -392,7 +414,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Adrenaline/Animation"
     },
     {
       "name": "AdrenalineDisplayL2",
@@ -411,7 +434,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Adrenaline/Animation"
     },
     {
       "name": "AdrenalineDisplayL3",
@@ -430,7 +454,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Adrenaline/Animation"
     },
     {
       "name": "AdrenalineDisplayL4",
@@ -449,7 +474,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Adrenaline/Animation"
     },
     {
       "name": "AdrenalineDisplayL5",
@@ -468,7 +494,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Adrenaline/Animation"
     },
     {
       "name": "AdrenalineDisplayL6",
@@ -487,7 +514,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Adrenaline/Animation"
     },
     {
       "name": "AdrenalineDisplayL7",
@@ -506,7 +534,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Adrenaline/Animation"
     },
     {
       "name": "AdrenalineDisplayL8",
@@ -525,7 +554,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Adrenaline/Animation"
     },
     {
       "name": "AdrenalineDisplayL9",
@@ -544,7 +574,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Adrenaline/Animation"
     },
     {
       "name": "AdrenalineDisplayLx",
@@ -563,7 +594,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Adrenaline/Animation"
     },
     {
       "name": "AdrenalineDisplayLxi",
@@ -582,7 +614,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Adrenaline/Animation"
     },
     {
       "name": "AdrenalineDisplayLxii",
@@ -601,7 +634,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Adrenaline/Animation"
     },
     {
       "name": "AdrenalineDisplayLxiii",
@@ -620,7 +654,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Adrenaline/Animation"
     },
     {
       "name": "AdrenalineDisplayLiv",
@@ -639,7 +674,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Adrenaline/Animation"
     },
     {
       "name": "AdrenalineDisplayLv",
@@ -658,7 +694,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Adrenaline/Animation"
     },
     {
       "name": "AdrenalineDisplayFull",
@@ -677,7 +714,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Adrenaline/Animation"
     },
     {
       "name": "AdrenalineAttributeAdd",
@@ -695,7 +733,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Adrenaline"
     },
     {
       "name": "AdrenalineAttributeRemove",
@@ -713,7 +752,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Adrenaline"
     },
     {
       "name": "Adrenaline",
@@ -725,7 +765,8 @@
         "files": [
           "src/main/java/com/everla/revengeance/potion/AdrenalineMobEffect.java"
         ]
-      }
+      },
+      "path": "~/Adrenaline"
     },
     {
       "name": "AdrenalineAnimation",
@@ -743,7 +784,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Adrenaline/Animation"
     },
     {
       "name": "AdrenalineButtonClick",
@@ -761,7 +803,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Adrenaline"
     },
     {
       "name": "AdrenalineButton",
@@ -773,7 +816,8 @@
         "files": [
           "src/main/java/com/everla/revengeance/network/AdrenalineButtonMessage.java"
         ]
-      }
+      },
+      "path": "~/Adrenaline"
     },
     {
       "name": "RageCharge",
@@ -807,7 +851,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Rage"
     },
     {
       "name": "AdrenalineDischarge",
@@ -825,7 +870,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Adrenaline"
     },
     {
       "name": "ChargeReset",
@@ -877,7 +923,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Adrenaline"
     }
   ],
   "variable_elements": [],
@@ -967,12 +1014,31 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Rage",
+        "children": [
+          {
+            "name": "Animation",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Adrenaline",
+        "children": [
+          {
+            "name": "Animation",
+            "children": []
+          }
+        ]
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "revengeance",
     "modName": "Revengeance",
-    "version": "0.1.0",
+    "version": "0.1.2",
     "description": "Calamity?!",
     "author": "EverlaPrismerAya",
     "websiteURL": "https://space.bilibili.com/485238732",
