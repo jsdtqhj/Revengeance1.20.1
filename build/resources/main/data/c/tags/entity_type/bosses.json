@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    {
-      "id":"#revengeance:compact_bosses",
-      "required":false
-    }
-  ]
-}

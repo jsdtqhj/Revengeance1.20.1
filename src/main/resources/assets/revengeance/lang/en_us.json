@@ -7,8 +7,22 @@
   "subtitles.rage_activite": "Rage Activites",
   "subtitles.adrenaline_activite": "Adrenaline Activites",
   "key.revengeance.rage_button": "Rage Mode",
+  "effect.prismcore.rage": "Rage",
+  "key.prismcore.adrenaline_button": "Adrenaline Mode",
+  "key.prismcore.rage_button": "Rage Mode",
   "effect.revengeance.adrenaline": "Adrenaline",
   "key.revengeance.adrenaline_button": "Adrenaline Mode",
   "attribute.revengeance.adrenaline_level": "Rage Level",
-  "subtitles.rage_full": "Rage Fully Charged"
+  "attribute.prismcore.adrenaline_level": "Rage Level",
+  "attribute.prismcore.rage_level": "Rage Level",
+  "effect.prismcore.adrenaline": "Adrenaline",
+  "subtitles.rage_full": "Rage Fully Charged",
+  "config.revengeance.rageUpdateInterval": "Rage Update Interval",
+  "config.revengeance.rageUpdateInterval.comment": "How often (in ticks) to scan for hostile entities for rage charging. Lower = more accurate but worse performance. (1-20)",
+  "config.revengeance.rageCacheDuration": "Rage Cache Duration", 
+  "config.revengeance.rageCacheDuration.comment": "How long (in ticks) to cache hostile entity scan results. Should be >= rageUpdateInterval for best performance.",
+  "config.revengeance.rageDetectionRadius": "Rage Detection Radius",
+  "config.revengeance.rageDetectionRadius.comment": "Maximum distance to detect hostile entities for rage charging (8-64 blocks)",
+  "config.revengeance.rageInnerRadius": "Rage Inner Radius",
+  "config.revengeance.rageInnerRadius.comment": "Distance for maximum rage charging speed (4-32 blocks, should be < rageDetectionRadius)"
 }

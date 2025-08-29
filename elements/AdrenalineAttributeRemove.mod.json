@@ -1,7 +1,0 @@
-{
-  "_fv": 77,
-  "_type": "procedure",
-  "definition": {
-    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"40\" y=\"40\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"entity_execute_command\"><value name=\"entity\"><block type=\"entity_from_deps\"></block></value><value name=\"command\"><block type=\"text\"><field name=\"TEXT\">attribute @s terra_curio:generic.ranged_damage modifier remove revengeance.adrenaline.ranged</field></block></value><next><block type=\"entity_execute_command\"><value name=\"entity\"><block type=\"entity_from_deps\"></block></value><value name=\"command\"><block type=\"text\"><field name=\"TEXT\">attribute @s terra_curio:generic.magic_damage modifier remove revengeance.adrenaline.magic</field></block></value><next><block type=\"entity_execute_command\"><value name=\"entity\"><block type=\"entity_from_deps\"></block></value><value name=\"command\"><block type=\"text\"><field name=\"TEXT\">attribute @s minecraft:generic.attack_damage modifier remove revengeance.adrenaline.melee</field></block></value><next><block type=\"entity_execute_command\"><value name=\"entity\"><block type=\"entity_from_deps\"></block></value><value name=\"command\"><block type=\"text\"><field name=\"TEXT\">attribute @s terra_entity:player.summon_damage modifier remove revengeance.adrenaline.summon</field></block></value></block></next></block></next></block></next></block></next></block></xml>"
-  }
-}
