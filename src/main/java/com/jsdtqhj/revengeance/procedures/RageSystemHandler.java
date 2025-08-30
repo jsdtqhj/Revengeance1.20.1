@@ -37,6 +37,11 @@ public class RageSystemHandler {
     // 缓存每个玩家的怒气充能速度
     private static final Map<UUID, CachedRageData> rageCache = new HashMap<>();
     
+    // 缓存清理相关常量
+    private static final int CACHE_CLEANUP_INTERVAL = 200; // 每200刻清理一次缓存 (10秒)
+    private static final int CACHE_MAX_AGE = 6000; // 缓存最大年龄5分钟 (6000刻)
+    private static long lastCacheCleanup = 0;
+    
     // 缓存数据结构
     private static class CachedRageData {
         double totalChargeRate;
@@ -61,18 +66,18 @@ public class RageSystemHandler {
     // === Event Listeners ===
 
     @SubscribeEvent
-    public static void
-    onPlayerRespawn(PlayerEvent.PlayerRespawnEvent
-                            event) {
+    public static void onPlayerRespawn(PlayerEvent.PlayerRespawnEvent event) {
         resetAttributes(event.getEntity());
         // 清除缓存
         rageCache.remove(event.getEntity().getUUID());
     }
 
     @SubscribeEvent
-    public static void
-    onPlayerTick(TickEvent.PlayerTickEvent event) {
+    public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
         if (event.phase == TickEvent.Phase.END && event.player != null) {
+            // 定期清理过期的缓存
+            cleanupExpiredCache(event.player.level().getLevelData().getGameTime());
+            
             chargeRageForPlayer(event.player);
             handleRageAnimation(event.player);
             handleRageConsumption(event.player);
@@ -101,20 +106,28 @@ public class RageSystemHandler {
 
 
     /**
+     * 定期清理过期的缓存条目，防止内存泄漏
+     */
+    private static void cleanupExpiredCache(long currentTime) {
+        if (currentTime - lastCacheCleanup >= CACHE_CLEANUP_INTERVAL) {
+            rageCache.entrySet().removeIf(entry -> 
+                currentTime - entry.getValue().cacheTime >= CACHE_MAX_AGE);
+            lastCacheCleanup = currentTime;
+        }
+    }
+
+    /**
      * 重置实体的怒气和肾上腺素属性
      * 在玩家重生时调用此方法
      */
-    public static void resetAttributes(Entity
-                                               entity) {
+    public static void resetAttributes(Entity entity) {
         // 只处理LivingEntity
-        if (!(entity instanceof LivingEntity
-                living)) {
+        if (!(entity instanceof LivingEntity living)) {
             return;
         }
 
         // 重置怒气值
-        if (living.getAttributes().hasAttribute(
-                RevengeanceModAttributes.RAGE_LEVEL.get())) {
+        if (living.getAttributes().hasAttribute(RevengeanceModAttributes.RAGE_LEVEL.get())) {
             living.getAttribute(RevengeanceModAttributes.RAGE_LEVEL.get()).setBaseValue(0);
             // 同时清除相关标记
             living.getPersistentData().putBoolean("rageFullSoundPlayed", false);
@@ -122,22 +135,16 @@ public class RageSystemHandler {
         }
 
         // 重置肾上腺素值
-        if
-        (living.getAttributes().hasAttribute(RevengeanceModAttributes.ADRENALINE_LEVEL.get())) {
-
+        if (living.getAttributes().hasAttribute(RevengeanceModAttributes.ADRENALINE_LEVEL.get())) {
             living.getAttribute(RevengeanceModAttributes.ADRENALINE_LEVEL.get()).setBaseValue(0);
         }
     }
 
     // 创建一个静态的TagKey，避免重复创建
-    private static final ResourceLocation
-            RAGE_TAG_LOCATION =
-            ResourceLocation.tryParse(RevengeanceMod.MODID +
-                    ":not_trigger_rage");
-    private static final TagKey<EntityType<?>>
-            NOT_TRIGGER_RAGE = TagKey.create(ForgeRegistries
-                    .ENTITY_TYPES.getRegistryKey(),
-            RAGE_TAG_LOCATION);
+    private static final ResourceLocation RAGE_TAG_LOCATION = 
+            ResourceLocation.tryParse(RevengeanceMod.MODID + ":not_trigger_rage");
+    private static final TagKey<EntityType<?>> NOT_TRIGGER_RAGE = 
+            TagKey.create(ForgeRegistries.ENTITY_TYPES.getRegistryKey(), RAGE_TAG_LOCATION);
 
     // 怒气充能和流失的常量
     private static final double MAX_RAGE = 100.0;
