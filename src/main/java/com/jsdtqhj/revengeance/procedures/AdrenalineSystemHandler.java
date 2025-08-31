@@ -246,6 +246,21 @@ public class AdrenalineSystemHandler {
             return;
         }
 
+        // 检查肾上腺素是否已满，如果满了则损失全部
+        if (currentAdrenaline >= MAX_ADRENALINE) {
+            player.getAttribute(RevengeanceModAttributes.ADRENALINE_LEVEL.get()).setBaseValue(0);
+            
+            // 重置充满音效标记
+            player.getPersistentData().putBoolean("adrenalineFullSoundPlayed", false);
+            
+            // 播放充能中断音效
+            if (!player.level().isClientSide() && player.level() instanceof ServerLevel serverLevel) {
+                serverLevel.playSound(null, player.getX(), player.getY(), player.getZ(),
+                    RevengeanceModSounds.ADRENALINE_CHARGE_BREAK.get(), SoundSource.PLAYERS, 1.0F, 1.0F);
+            }
+            return;
+        }
+
         float maxHealth = player.getMaxHealth();
         int damageInt = (int) Math.floor(damage);
         double lossAmount = 0;
