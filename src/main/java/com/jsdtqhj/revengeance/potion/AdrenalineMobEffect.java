@@ -12,8 +12,8 @@ public class AdrenalineMobEffect extends MobEffect {
 		this.addAttributeModifier(
 				Attributes.ATTACK_DAMAGE,
 				ADRENALINE_MELEE_UUID,
-				1.1,
-				AttributeModifier.Operation.MULTIPLY_BASE
+				2.1,
+				AttributeModifier.Operation.MULTIPLY_TOTAL
 		);
 	}
 
