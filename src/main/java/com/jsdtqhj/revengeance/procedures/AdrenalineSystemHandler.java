@@ -287,14 +287,6 @@ public class AdrenalineSystemHandler {
             
             // 重置充满音效标记
             player.getPersistentData().putBoolean("adrenalineFullSoundPlayed", false);
-            
-            // 只在肾上腺素完全损失时播放充能中断音效
-            if (newValue == 0 && currentAdrenaline > 0) {
-                if (!player.level().isClientSide() && player.level() instanceof ServerLevel serverLevel) {
-                    serverLevel.playSound(null, player.getX(), player.getY(), player.getZ(),
-                        RevengeanceModSounds.ADRENALINE_CHARGE_BREAK.get(), SoundSource.PLAYERS, 1.0F, 1.0F);
-                }
-            }
         }
     }
 
